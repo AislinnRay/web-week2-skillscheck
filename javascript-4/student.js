@@ -4,7 +4,9 @@
 //////////////////Step 1////////////////////
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
 
-var faveColors = ['lilac', 'periwinkle', 'violet']
+// var faveColors = ['lilac', 'periwinkle', 'violet']
+var faveColors = ['pink','purple','lightblue']
+//var faveColors = ['red','orange','green']
 
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
