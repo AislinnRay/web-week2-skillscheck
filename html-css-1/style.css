@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    font-family: "Helvetica",sans-serif;
+}
+
+
+.header-container {
+    display: flex;
+    background: gray;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    height:10vh;
+    justify-content: space-between;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    flex: 1;
+}
+
+#company {
+    font-size: 24pt;
+    flex: 1
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex: .25;
+    font-size: 10pt;
+    justify-content: space-between;
+}
+
+.box-black {
+    display: flex;
+    background: black;
+    width: 100%;
+    height:40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text-yellow {
+    display: flex;
+    font-size: 40pt;
+    font-weight: 600;
+    color: gold;
+    padding: 80pt;
+}
+
+.content-container, .green-container, .orange-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+
+#boxgreen, #boxorange {
+    display: flex;
+    height: 200px;
+    margin: 10px;
+}
+
+#boxgreen {
+    background: rgb(185, 245, 209);
+    width: 200px;
+    border-radius: 15px;
+    margin:30px;
+}
+
+#boxorange {
+    background: rgb(238, 184, 97);
+    width: 400px;
+}
+
+#text, img {
+    flex:1;
+    margin:30;
+    padding-left: 60px;
+}
+#text {
+    font-size:8pt;
+}
+
+img {
+    max-width: 200px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.footer-container {
+    background: rgb(63, 64, 88);
+    height: 10vh;
+    display: flex;
+}
